@@ -29,8 +29,8 @@ import logoLast from '../assets/Logo (18).png'
 const Home = () => {
   return (
    <>
-   <section className="w-[85%] m-auto pt-[100px] realtive flex flex-col sm:flex-row  justify-between ">
-            <aside className="flex flex-col gap-[60px] py-[40px] sm:py-[0px]">
+   <section className="w-[85%] m-auto pt-[100px]  realtive flex flex-col sm:flex-row  justify-between ">
+            <aside className="flex relative flex-col gap-[60px] py-[40px] sm:py-[0px]">
                 <p className="text-[#1D1E25] text-[50px] sm:text-[80px] mb-[30px] text-center sm:text-left font-bold sm:leading-[120px]">Digitally forward <br/> creative</p>
                 <div className="flex  gap-[20px]">
                  <hr className="w-[100px] mt-[30px] border-solid border-t-2 border-black" /> 
