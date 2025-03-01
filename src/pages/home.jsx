@@ -38,7 +38,7 @@ const Home = () => {
                     Be where the world is going</p>    
                 </div>
 
-                <div className="flex gap-[20px]">
+                <div className="flex flex-col sm:flex-row gap-[20px]">
                     <input type="text" placeholder="Enter your email " 
                     className="py-[15px] outline-none border-b-2  w-[300px] border-solid border-gray-400" />
                     <button className="py-[15px] px-[50px] rounded-[30px] bg-black text-white tracking-[2px]">Try for free</button>
